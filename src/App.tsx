@@ -14,12 +14,20 @@ function App() {
         </div>
       </div>
 
-      <div className="attribution">
+      <div className="text-[11px] text-center">
         Challenge by{" "}
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+        <a
+          className="text-attribution"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+        >
           Frontend Mentor
         </a>
-        . Coded by <a href="#">Your Name Here</a>.
+        . Coded by{" "}
+        <a className="text-attribution" href="#">
+          Your Name Here
+        </a>
+        .
       </div>
     </main>
   );
