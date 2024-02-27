@@ -3,7 +3,7 @@ import avatarImg from "./assets/images/avatar-jessica.jpeg";
 function App() {
   return (
     <main className="grid place-items-center h-screen w-screen bg-off-black text-white">
-      <div className="bg-dark-grey w-[327px] h-[578px] rounded-[10px] flex flex-col items-center pt-[23px] px-[24px]">
+      <div className="bg-dark-grey w-[327px] h-[578px] sm:w-[384px] sm:h-[610px] rounded-[10px] flex flex-col items-center pt-[23px] px-[24px] sm:pt-[40px] sm:px-[40px]">
         <img
           className="rounded-full size-[88px]"
           src={avatarImg}
