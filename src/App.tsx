@@ -2,7 +2,7 @@ function App() {
   return (
     <main>
       <div>
-        <h1>Jessica Randall</h1>
+        <h1 className="text-3xl font-bold underline">Jessica Randall</h1>
         <p>London, United Kingdom</p>
         <p>"Front-end developer and avid reader."</p>
         <div>
