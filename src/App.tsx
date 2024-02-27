@@ -14,19 +14,19 @@ function App() {
         <p className="text-green font-semibold pt-1">London, United Kingdom</p>
         <p className="pt-[24px]">"Front-end developer and avid reader."</p>
         <div className="flex flex-col gap-[16px] w-full mt-[24px]">
-          <button className="bg-grey font-semibold rounded-lg py-[12px] hover:bg-green hover:text-dark-grey">
+          <button className="bg-grey font-semibold rounded-lg py-[12px] hover:bg-green hover:text-dark-grey focus:bg-green focus:text-dark-grey">
             GitHub
           </button>
-          <button className="bg-grey font-semibold rounded-lg py-[12px] hover:bg-green hover:text-dark-grey">
+          <button className="bg-grey font-semibold rounded-lg py-[12px] hover:bg-green hover:text-dark-grey focus:bg-green focus:text-dark-grey">
             Frontend Mentor
           </button>
-          <button className="bg-grey font-semibold rounded-lg py-[12px] hover:bg-green hover:text-dark-grey">
+          <button className="bg-grey font-semibold rounded-lg py-[12px] hover:bg-green hover:text-dark-grey focus:bg-green focus:text-dark-grey">
             LinkedIn
           </button>
-          <button className="bg-grey font-semibold rounded-lg py-[12px] hover:bg-green hover:text-dark-grey">
+          <button className="bg-grey font-semibold rounded-lg py-[12px] hover:bg-green hover:text-dark-grey focus:bg-green focus:text-dark-grey">
             Twitter
           </button>
-          <button className="bg-grey font-semibold rounded-lg py-[12px] hover:bg-green hover:text-dark-grey">
+          <button className="bg-grey font-semibold rounded-lg py-[12px] hover:bg-green hover:text-dark-grey focus:bg-green focus:text-dark-grey">
             Instagram
           </button>
         </div>
